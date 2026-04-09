@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claudio Melo | Mi portafolio Web</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">CM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#Sobre-mi">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Mis-proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Tecnologias">Tecnologías</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="bg-light text-center" style="background: linear-gradient(rgba(0, 0, 0, 0.226))"></header>
+    <img src="assets/img/banner.png" id="banner" height="mx-auto">
+    <div class="container">
+        <h1 class="display-5 fw-bold" id="titulo">Claudio Melo</h1>
+        <p class="label">Full-Stack Developer Training | Diseñador Gráfico & UX/UI
+
+        </p>
+    </div>
+    </header>
+    <main class="container my-5">
+        <section id="Sobre-mi" class="mb-5">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h2 class="mb-3">Sobre mí</h2>
+                    <p>
+                        Diseñador Gráfico y UX/UI con sólida experiencia en diseño digital, identidad visual y creación
+                        de interfaces centradas en el usuario. Combino pensamiento creativo con una visión funcional
+                        para transformar requerimientos complejos en experiencias accesibles, estéticas y coherentes.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="Mis-proyectos" class="mb-5">
+            <h2 class="text-center mb-5 fw-bold">Proyectos Destacados</h2>
+
+            <div class="row g-4">
+
+                <!-- PROYECTO 1 -->
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-lg border-0">
+
+                        <!-- Imagen / GIF -->
+                        <img src="assets/img/buscador-recetas.png" class="card-img-top" alt="Buscador de Recetas">
+
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Buscador de Recetas Interactivo</h5>
+
+                            <p class="card-text">
+                                Aplicación web que permite a los usuarios buscar recetas en tiempo real según
+                                ingredientes disponibles.
+                                Resuelve el problema de no saber qué cocinar con lo que tienes en casa.
+                            </p>
+
+                            <!-- Tecnologías -->
+                            <p class="mb-2"><strong>Tecnologías:</strong></p>
+                            <div class="mb-3">
+                                <span class="badge bg-dark">HTML</span>
+                                <span class="badge bg-dark">CSS</span>
+                              <span class="badge bg-dark">JavaScript</span>
+                                
+                            </div>
+
+                            <!-- Botones -->
+                            <div class="mt-auto">
+                                <a href="https://api-buscador-de-recetas.onrender.com" class="btn btn-primary w-100 mb-2" target="_blank">
+                                    Ver Demo en Vivo
+                                </a>
+                                <a href="https://github.com/clauubrand/API-Buscador-de-recetas" class="btn btn-outline-dark w-100" target="_blank">
+                                    Ver Código en GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROYECTO 2 -->
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-lg border-0">
+
+                        <!-- Imagen / GIF -->
+                        <img src="assets/img/kanban.png" class="card-img-top" alt="Kanban Pro">
+
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Kanban Pro - Gestión de Proyectos</h5>
+
+                            <p class="card-text">
+                                Aplicación tipo Trello para gestionar tareas mediante tableros Kanban.
+                                Permite crear, editar y organizar tareas de forma visual, mejorando la productividad de
+                                equipos.
+                            </p>
+
+                            <!-- Tecnologías -->
+                            <p class="mb-2"><strong>Tecnologías:</strong></p>
+                            <div class="mb-3">
+                                <span class="badge bg-dark">JavaScript</span>
+                                <span class="badge bg-dark">Node.js</span>
+                                <span class="badge bg-dark">Express</span>
+                                <span class="badge bg-dark">PostgreSQL</span>
+                                <span class="badge bg-dark">Sequelize</span>
+                                <span class="badge bg-dark">API REST</span>
+                            </div>
+
+                            <!-- Botones -->
+                            <div class="mt-auto">
+                                <a href="https://api-rest-kanban-app.onrender.com" class="btn btn-primary w-100 mb-2" target="_blank">
+                                    Ver Demo en Vivo
+                                </a>
+                                <a href="https://github.com/clauubrand/API-REST-Kanban-App" class="btn btn-outline-dark w-100" target="_blank">
+                                    Ver Código en GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="Tecnologias" class="mb-5">
+            <h2 class="text-center mb-4">Tecnologías</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">Figma</li>
+                        <li class="list-group-item">Adobe XD</li>
+                        <li class="list-group-item">Illustrator</li>
+                        <li class="list-group-item">Photoshop</li>
+                        <li class="list-group-item">Premiere Pro</li>
+                        <li class="list-group-item">Affinity Suite</li>
+                        <li class="list-group-item">CapCut</li>
+                        <li class="list-group-item">Trello</li>
+                        <li class="list-group-item">Notion</li>
+                        <li class="list-group-item">Slack</li>
+                        <li class="list-group-item">Google Workspace</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <h3 id="Contacto">Contacto</h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://linkedin.com/in/clauubrand">
+                                <button type="button" class="btn btn-light">linkedin</button>
+                                <div class="row mb-4">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://instagram.com/clauubrand">
+                                <button type="button" class="btn btn-light">Instagram</button>
+                                <div class="row mb-4">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+
+                    <h3>Hablemos</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Nombre completo</label>
+                            <input type="text" class="form-control" id="nombref" placeholder="Tu nombre">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Correo</label>
+                            <input type="email" class="form-control" id="correof" placeholder="Tu correo">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensajef" rows="4" placeholder="Mensaje"></textarea>
+                        </div>
+                        <button id="enviar_formulario" type="submit" class="btn btn-primary">
+                            Enviar
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="text-center">
+                <small>&copy; 2026 Claudio Melo. Todos los derechos reservados.</small>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+
+    
+    
+        body {
+            color: rgb(65, 65, 65);
+            font-size: 1.58;
+            text-align: left;
+            margin:auto;
+            font-family:  Helvetica, sans-serif;
+            margin: 25px;
+            padding: 25px;
+        }
+        
+        footer {
+            color: rgb(65, 65, 65);
+            font-size: 1.5;
+            text-align: left;
+            margin:auto;
+            font-family:  Helvetica, sans-serif;
+        }
+         p {
+            color: rgb(45, 45, 52);
+            margin: 15px;
+            font-size: 20px;
+        }
+        h1 {
+            color: rgb(29, 29, 29);
+            font-size: 1.5;
+            text-align: left;
+            margin: 15px;
+            font-family: Helvetica, sans-serif;
+        }
+        h2 {
+            color: rgb(51, 51, 53);
+            font-size: 1.5;
+            text-align: left;
+            font-family: Helvetica, sans-serif;
+        }
+        h3 {
+            color: rgb(223, 223, 223);
+            font-size: 1.5;
+            text-align: left;
+            font-family: Helvetica, sans-serif;
+        }
+        ul {
+            color: rgb(51, 51, 53);
+            font-size: 1.5;
+            text-align: left;
+            font-family: Helvetica, sans-serif;
+        }
+        li {
+            color: rgb(51, 51, 53);
+            font-size: 1.5;
+            text-align: left;
+            font-family: Helvetica, sans-serif;
+        }
+       
+        label {
+            color: #e6e6e6;
+            line-height: 1.6;
+            margin: 15px 50;
+            font-size: 16px;
+            font-family: Helvetica, sans-serif;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        @media (min-width: 768px) { 
+            #banner {
+            margin-top: auto;
+            width: auto;
+            height: auto;
+            object-fit: cover;
+            }
+            #titulo h1{
+                color: rgb(20, 18, 10);
+                font-size: 40px;
+            }
+            #Indice h2{
+                color: rgb(214, 32, 99);
+                font-size: 30px;
+            }
+            #Indice ul{
+                color: rgb(45, 45, 52);
+                font-size: 20px;
+            }
+            #Sobre-mi h2{
+                color: rgb(74, 74, 74);
+                font-size: 30px;
+            }
+            #Sobre-mi p{
+                color: rgb(45, 45, 52);
+                font-size: 20px;
+            }
+            #Mis-proyectos p{
+                color: rgb(45, 45, 52);
+                font-size: 20px;
+            }
+            #Mis-proyectos h2{
+                color: rgb(141, 195, 202);
+                font-size: 30px;
+            }
+            #Mis-proyectos h3{
+                color: rgb(45, 45, 52);
+                font-size: 20px;
+            }
+            #Mis-proyectos p{
+                color: rgb(45, 45, 52);
+                font-size: 20px;
+            }
+            #Tecnologias h3{
+                color: rgb(154, 182, 140);
+                font-size: 30px;
+            }
+            #Tecnologias ul{
+                color: rgb(45, 45, 52);
+                font-size: 20px;
+            }
+            #Contacto h2{
+                color: rgb(67, 163, 117);
+                font-size: 30px;
+            }
+            #Contacto ul{
+                color: rgb(45, 45, 52);
+                font-size: 20px;
+            }
+            #Contacto label{
+                color: rgb(45, 45, 52);
+                font-size: 20px;
+                }
+            #Contacto p{
+                color: rgb(42, 42, 42);
+                font-size: 20px;
+            }
+            #hablemos h2{
+                color: rgb(45, 45, 52);
+                font-size: 30px;
+            }
+        }
